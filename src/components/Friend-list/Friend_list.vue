@@ -71,7 +71,7 @@ export default {
               return this.data[index].name
             }
           })
-          return answer.filter(el =>{return el}).slice(0,3).sort()
+          return answer.filter(el =>{return el}).sort().slice(0,3)
         }
     },
     methods:{
